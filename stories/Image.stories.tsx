@@ -2,10 +2,10 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import Image from "next/image";
 import React from "react";
 
-export const ImageTest = (): JSX.Element => (
+const ImageTest = (): JSX.Element => (
   <Image
     src="http://placekitten.com/g/100/100"
-    alt="A sample Next image pointing to the CDN"
+    alt="A sample Next image pointing to an external link"
     layout="fixed"
     width={100}
     height={100}
