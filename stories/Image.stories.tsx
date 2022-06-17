@@ -2,6 +2,8 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import Image from "next/image";
 import React from "react";
 
+console.log("Importing Image from Next", { Image });
+
 const ImageTest = (): JSX.Element => (
   <Image
     src="http://placekitten.com/g/100/100"
